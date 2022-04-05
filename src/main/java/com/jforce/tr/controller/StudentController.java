@@ -13,6 +13,8 @@ public class StudentController {
 	
 	@RequestMapping(path = "/hello" , method = RequestMethod.GET)
 	public String hello() {
+
+
 		System.out.println("Metoda girdi");
 		return "Hello metodum çalıştı";
 	}
