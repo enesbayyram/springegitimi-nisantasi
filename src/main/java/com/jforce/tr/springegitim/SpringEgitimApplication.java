@@ -9,6 +9,8 @@ import org.springframework.context.annotation.ComponentScan;
 public class SpringEgitimApplication {
 
 	public static void main(String[] args) {
+
+
 		SpringApplication.run(SpringEgitimApplication.class, args);
 	}
 
